@@ -1,0 +1,1 @@
+Copyright &copy; 2013 APTIKOM Sulut. All rights reserved.

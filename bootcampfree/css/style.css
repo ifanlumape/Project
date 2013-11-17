@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+
+#masthead, #main, #footer{
+	clear:both;
+	float:left;
+	width:98%;
+	margin-top: 0;
+	margin-right: 10%;
+	margin-bottom: 0;
+	margin-left: 1%;
+}
+
+#navigation{
+	/*background-color:#FFCB2D;*/
+	clear:both;
+	float:left;
+	width:100%;
+}
+
+#masthead{
+	height:50px;
+}
+
+#masthead h1{
+	display:none;
+	color: #333;
+}
+
+/* =Layout Navigation
+------------------------------------------------------------------------------------------------*/
+#menu_tab{
+	float:left;
+	list-style:none;
+	margin:0;
+	width:98%;
+	background-color: #666;
+	padding-top: 10px;
+	padding-right: 10%;
+	padding-bottom: 0;
+	padding-left: 1%;
+}
+
+#menu_tab li{
+	float:left;
+}
+
+#menu_tab a{
+	color:#666;
+	display:block;
+	float:left;
+	margin:0 1px 0 0;
+	padding:4px 8px;
+	text-decoration:none;
+	background-color: #CCC;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+
+#menu_tab a:hover, 
+body#adminhome #tab_adminhome a,
+body#agenda #tab_agenda a,
+body#anggota #tab_anggota a,
+body#banner #tab_banner a,
+body#berita #tab_berita a,
+body#halaman #tab_halaman a,
+body#hubungi #tab_hubungi a,
+body#jabatan #tab_jabatan a,
+body#jadwal #tab_jadwal a,
+body#jemaat #tab_jemaat a,
+body#kategorijadwal #tab_kategorijadwal a,
+body#permintaandoa #tab_permintaandoa a,
+body#permintaankunjungan #tab_permintaankunjungan a,
+body#renungan #tab_renungan a,
+body#keuangan #tab_keuangan a,
+body#users #tab_users a{
+	border-color: #727377;
+	color: #333;
+	padding-bottom: 5px;
+	background-color: #fff;
+}
+
+#main{
+	padding:10px 0;
+}
+
+#footer{
+	font-size:smaller;
+	padding-top:5px;
+	text-align:left;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+
+table{
+	font-size:90%;
+}
+
+table th{
+	text-transform:uppercase;
+	font-weight:bold;
+	background-color: #666;
+	color: #FFF;
+}
+
+table td, table th {
+	text-align:left;
+	padding:4px 10px 4px 10px;
+}
+
+.zebra {
+	background-color: #CCC;
+}
+
+form{
+	padding:10px;
+}
+
+p label{
+	display:block;
+	float:left;
+	margin-right:10px;
+	text-align:right;
+	width:140px;
+}
+
+form p{
+	margin-bottom:10px;
+}
+
+#submit{
+	padding:0 4px;
+	border:#666 solid 1px;
+	margin-left:150px;
+}
+
+.form_field{
+	border:#666 solid 1px;
+}
+
+.form_field:focus{
+	background-color:#EBEBEB;
+}
+
+p.message{
+	color:#900;
+	font-weight:bold;
+	margin-bottom:10px;
+	background-color:#F0F0F0;
+	padding:5px;
+	border:1px solid #090;
+}
+
+.field_error{
+	clear:both;
+	color:#900;
+	margin-left:150px;
+}
+
+fieldset{
+	border:1px solid;
+	padding-left:10px;
+	margin-bottom:10px;
+}
+
+a.add, 
+a.update, 
+a.delete,
+a.back,
+a.next,
+a.excel,
+a.aktif,
+a.nonaktif{
+	font-size: 9pt;
+	color:#903;
+	font-weight:bold;
+	padding-left:20px;
+	text-decoration: none;
+}
+
+a.add:hover,
+a.update:hover,
+a.delete:hover,
+a.back:hover,
+a.next:hover,
+a.excel:hover,
+a.aktif:hover
+a.nonaktif:hover{
+	color:#666;
+}
+
+a.add {
+	background:url(../images/2.png) left center no-repeat;
+}
+a.update {
+	background:url(../images/12.png) left center no-repeat;
+}
+a.delete {
+	background:url(../images/7.png) left center no-repeat;
+}
+a.next {
+	background:url(../images/9.png) left center no-repeat;
+}
+a.back {
+	background:url(../images/10.png) left center no-repeat;
+}
+a.excel {
+	background:url(../images/13.png) left center no-repeat;
+}
+a.aktif {
+	background:url(../images/8.png) left center no-repeat;
+}
+a.nonaktif {
+	background:url(../images/1.png) left center no-repeat;
+}
+
+p#bottom_link{
+	margin-top:10px;
+}
+
+#pagination{
+	margin-bottom:10px;
+	color:#999;
+}
+
+#pagination a{
+	text-decoration:none;
+}
+
+#pagination a:hover{
+	color:#903;
+	font-size:150%;
+	font-weight:bold;
+}
+
+p strong {
+	font-size:150%;
+	font-weight:bold;
+}
+
+h2{
+	font-size:1.3em;
+	margin-bottom:10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	color: #333;
+}
+
+p.message{
+	color:#900;
+	font-weight:bold;
+	background-color:#EBEBEB;
+	padding:5px;
+	border:1px solid #090;
+}

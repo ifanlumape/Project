@@ -1,0 +1,169 @@
+body {
+	font-family: Arial;
+	font-size: 12px;
+	background-color: #FC6;
+}
+#wrapper {
+	width: 860px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#wrapper #header {
+	height: 168px;
+}
+#wrapper #headerleft  {
+	float: left;
+	width: 420px;
+	padding-top: 50px;
+	text-transform: uppercase;
+	color: #FFF;
+}
+#wrapper #header #headerleft h2 {
+	font-size: 32px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+#wrapper #headerright  {
+	float: left;
+	width: 440px;
+	padding-top: 100px;
+}
+#wrapper #clearer {
+	clear: both;
+}
+#wrapper #content {
+	float: left;
+	width: 560px;
+	background-color: #FFF;
+	padding: 20px;
+	line-height: 20px;
+}
+#wrapper #content label {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#wrapper #content form {
+	display: block;
+	padding: 10px;
+	border: 1px solid #CCC;
+}
+.field_error {
+	color: #900;
+}
+.message {
+	color: #900;
+}
+
+
+
+
+#wrapper #footer ul {
+	background-color: #FFF;
+	display: block;
+	padding: 10px;
+	width: 100%;
+	list-style-type: none;
+}
+#wrapper #footer #pembatas {
+	float: left;
+	width: 5px;
+	display: block;
+	padding: 5px;
+}
+
+#wrapper #footer li {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+#wrapper #footer a {
+	color: #333;
+	text-decoration: none;
+}
+#wrapper #footer a:hover {
+	background-color: #FF0;
+}
+
+
+
+#wrapper #footer h2 {
+	color: #333;
+}
+#wrapper #footer #box-footer {
+	float: left;
+	width: 260px;
+	display: block;
+	padding: 5px;
+}
+#wrapper #headerright ul  {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+
+
+#wrapper #content img {
+	background-color: #FFF;
+	display: block;
+	padding: 5px;
+	float: left;
+	border: 1px solid #CCC;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#wrapper #content a  {
+	color: #333;
+	text-decoration: none;
+}
+#wrapper #sidemenu a:hover {
+	background-color: #FF0;
+}
+
+#wrapper #content a:hover {
+	background-color: #FF0;
+}
+
+
+
+#wrapper #sidemenu {
+	float: left;
+	width: 256px;
+}
+#wrapper #sidemenu h2 {
+	margin-left: 20px;
+	color: #333;
+}
+#wrapper #sidemenu ul {
+	list-style-type: none;
+	padding: 10px;
+	margin-left: 20px;
+	background-color: #FFF;
+}
+#wrapper #sidemenu a {
+	color: #333;
+	text-decoration: none;
+}
+
+#wrapper #sidemenu ul li  {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+#wrapper #headerright ul li a  {
+	color: #FFF;
+	text-decoration: none;
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+}
